@@ -1,0 +1,18 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+input, button {
+    margin: 5px;
+    padding: 8px;
+}
+
+#output {
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
