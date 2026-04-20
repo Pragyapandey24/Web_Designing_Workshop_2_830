@@ -37,3 +37,25 @@ let newarray = [1,2,3,4,5];
 let squaredArray = newarray;
 map((num) => num * num);
 console.log(squaredArray);
+
+let sum = [1,2,3,4,5];
+let total = sum.reduce((accumulator , currentValue ) => accumulator + currentValue,0);
+console.log(total);
+
+let students = [{name : "Alice", marks : 85},
+    {name : "Bob", marks:92},
+    {name : "Nishu", marks:100}
+];
+
+let marks = students.map(student => student.marks);
+console.log(marks);
+
+let names = students.map(student => student.name);
+console.log(names);
+
+let topStudents = student.filter(student = student.marks >80);
+console.log(topStudents);
+
+let totalMarks = student.reduce((acc , student) => acc + student.marks,0);
+console.log(totalMarks);
+
