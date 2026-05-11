@@ -23,4 +23,4 @@ document.getElementById("btn4").addEventListener("click", function () {
     } else {
         p.style.display = "none";
     }
-});
+})
